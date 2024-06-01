@@ -20,21 +20,8 @@ h1,h2{
     width: 24vh;
     height: 24vh;
     margin: auto;
-    background-color: aqua;
     border-radius: 5%;
-    
-}
-.box1{
-    background-color: rgb(1, 32, 78);
-}
-.box2{
-    background-color: rgb(2, 131, 145);
-}
-.box3{
-    background-color: rgb(246, 220, 172);
-}
-.box4{
-    background-color: rgb(254, 174, 111);
+    background-color: greenyellow;
 }
 .flash{
     background-color: white;
