@@ -21,7 +21,18 @@ h1,h2{
     height: 24vh;
     margin: auto;
     border-radius: 5%;
-    background-color: greenyellow;
+}
+.box1{
+    background-color: red;
+}
+.box2{
+    background-color: green;
+}
+.box3{
+    background-color: blue;
+}
+.box4{
+    background-color: yellow;
 }
 .flash{
     background-color: white;

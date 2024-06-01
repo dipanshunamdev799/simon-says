@@ -1,8 +1,3 @@
-alert ("How to play.....");
-alert("1. click anywhere on the screen or press any key to start the game\n2. A tile will flash.\n3. Now click on the tile that just flashed.\n4. Now another tile will flash.\n5. Now click on the tile that was flashed before and then on the tile that just flashed.\n6. Now you move on to the next level.\n7. Keep repeating this pattern from the start! Lets see how far you can go :)");
-
-
-
 let started = false; //false implies game not running
 let level = 0;
 userSeq = [];
