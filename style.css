@@ -1,0 +1,49 @@
+body{
+    background-color: rgb(255, 253, 181);
+}
+h1,h2{
+    color: black;
+}
+*{
+    text-align: center;
+}
+.main-box{
+    margin: 0 auto;
+    background-color: rgb(255, 253, 181);
+    height: 50vh;
+    width: 50vh;
+    display: flex;
+    flex-wrap: wrap;
+}
+.box{
+    border: 1px solid rgb(0,0,0);
+    width: 24vh;
+    height: 24vh;
+    margin: auto;
+    background-color: aqua;
+    border-radius: 5%;
+    
+}
+.box1{
+    background-color: rgb(1, 32, 78);
+}
+.box2{
+    background-color: rgb(2, 131, 145);
+}
+.box3{
+    background-color: rgb(246, 220, 172);
+}
+.box4{
+    background-color: rgb(254, 174, 111);
+}
+.flash{
+    background-color: white;
+    box-shadow: 2px 2px 5px grey;
+}
+.user-flash{
+    background-color: black;
+    box-shadow: 2px 2px 5px grey;
+}
+.danger{
+    color: red;
+}
