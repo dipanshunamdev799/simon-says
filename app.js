@@ -43,6 +43,13 @@ document.addEventListener('keydown',function(){
         randomBoxFlash();
     }
 });
+document.addEventListener('click',function(){
+    if(started == false){
+        document.querySelector('h2').innerText = `Level ${level}`;
+        started = true;
+        randomBoxFlash();
+    }
+});
 for(let i=1; i<=4; i++){
     let box = boxes[`box${i}`];
     box.addEventListener('click',function(){
